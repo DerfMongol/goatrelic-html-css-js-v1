@@ -1,0 +1,442 @@
+
+.both-lists {
+    display: inline-block;
+    width: 100%;
+}
+
+.container {
+
+    padding: 12.5rem 0;
+    text-align: center;
+}
+
+.container1 {
+    display: block;
+    width: 100%;
+}
+
+.container2 {
+    display: block;
+    width: 100%;
+}
+
+.name {
+    font-family: 'Titan One', cursive;
+    background: rgba(224, 192, 11, 0.9);
+    font-weight: bold;
+    font-size: 1.875rem;
+    width: 100%;
+    /* min-width: 14.375rem; */
+    margin: 0;
+    padding: 0.625rem;
+    border: rgb(0, 0, 0) solid 2px;
+    /* float: right; */
+}
+
+.category {
+    text-align: center;
+}
+
+.trophy {
+    display: block;
+    /* margin: 0.5rem 0.625rem;
+    vertical-align: middle; */
+}
+
+
+.case {
+    text-align: center;
+    margin: 0;
+    /* margin-top: 50px; */
+    border: solid black 2px;
+    background: rgba(95, 95, 95, 0.747);
+    /* padding: 10px; */
+}
+
+
+.finals {
+    height: 5.7rem;
+    width: 2.6rem;
+    display: inline-block; 
+    vertical-align: middle;
+    text-align: right;
+}
+
+.mvp {
+    height: 5.7rem;
+    width: 5rem;
+    display: inline-block; 
+    vertical-align: middle;
+}
+
+.champ {
+    height: 5.7rem;
+    width: 3.2rem;
+    display: inline-block; 
+    vertical-align: middle;
+    text-align: right;
+}
+
+.stats {
+    background: rgba(255, 255, 255, 0.89);
+    border: rgb(0, 0, 0) solid 1px;
+    width: 100%;
+    padding: 0.3125rem;
+    margin: 0 0 2% 0;
+    /* min-width: 15rem; */
+}
+
+.intro {
+    margin: 0 0 32rem 0 ;
+    font-size: 1rem;
+    
+}
+
+.intro h1 {
+    font-family: 'Titan One', cursive;
+    
+}
+
+.titleFont {
+    font-family: 'Kreon', serif;
+    background: rgba(224, 192, 11, 0.9);
+    margin: 0;
+    margin-top: 0.5%;
+    width: 100%;
+    /* min-width: 531px; */
+    /* max-width: 675px; */
+    font-weight: normal;
+}
+.records {
+    background: rgba(0, 0, 0, 0.904);
+    color:rgba(224, 192, 11, 0.9);
+    border:rgba(224, 192, 11, 0.9) solid 1px;
+    margin: 1% auto;
+}
+.big {
+    font-family: 'Titan One', cursive;
+    background: rgba(202, 138, 0, 0.9);
+    font-weight: bold;
+    font-size: 1.5rem;
+    margin: auto;
+    width: 100%;
+    padding: none;
+}
+
+.min-max {
+    border-left: 1px solid black;
+    border-right: 1px solid black;
+    border-bottom: 1px solid black;
+}
+
+.min-max:hover,
+.min-max:active {
+    color: white;
+    cursor: pointer;
+}
+
+.seasonTitle {
+    font-family: 'Titan One', cursive;
+    display: block;
+    background: rgba(0, 0, 0, 0.904);
+    color:rgba(224, 192, 11, 0.9);
+    margin: 0 0 2% 0;
+    border: rgba(224, 192, 11, 0.9) solid 1px;
+    
+}
+
+.season {
+    display: inline-block;
+}
+
+.num {
+    display: inline-block;
+    padding: 0 1%;
+    font-size: 1rem;
+}
+
+.game {
+    min-width: 18.75rem;
+}
+
+.links {
+    font-family: 'Titan One', cursive;
+    text-align: center;
+    background:rgba(255, 255, 255, 0.8);
+    padding: 2% 0%;
+    border: solid black 1px;
+    text-decoration: none;
+    margin: 0;
+    font-size: 0.8rem;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: row;
+            flex-direction: row;
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+    -webkit-box-align: start;
+        -ms-flex-align: start;
+            align-items: flex-start;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+}
+
+
+
+.links a {
+    text-decoration: none;
+    color: black;
+    padding: 0.125rem 0.125rem;
+}
+ 
+.links a:hover,
+.links a:active {
+    color: gold;
+    background: rgb(0, 0, 0);
+    border-radius: 10%;
+}
+
+.catshead {
+    font-size: 0.9rem;
+    text-decoration: underline;
+    font-weight: bold;
+    margin: 0 0 1rem 0;
+}
+
+
+.cats {
+    display: inline-block;
+    margin: 0 1%;
+}
+
+.goat-stats {
+    padding-left: 20%;
+    font-family: 'Crimson Text', serif;
+    font-weight: bold;
+    font-size: 14px;
+}
+
+.player-list {
+    font-family: 'Crimson Text', serif;
+    font-weight: 900; 
+    font-size: 15px;
+}
+
+.critic-profile {
+    border: gold solid 2px;
+    background: black; 
+    color:  rgb(216, 201, 201);
+    padding: 1rem;
+    text-align: left;
+    /* width: 45%; */
+    width: 18rem;
+    /* display: inline-block; */
+    margin: 0.3rem 0.1rem;
+}
+
+.critic-name {
+    
+    margin: 0 0 0.3rem 0;
+    color:  gold;
+    text-decoration: underline;
+    font-size: 1.5rem;
+}
+
+.info {
+    color:  rgb(129, 123, 123);
+    font-size: 0.8rem;
+    margin: 0 0 1rem 0;
+}
+
+.foot-info {
+    color:  rgb(129, 123, 123);
+    font-size: 0.8rem;
+    margin: 1rem 0 0 0;
+    text-align: right;
+}
+
+.pic {
+    margin: 0 0.5rem 0.5rem 0;
+    width: 2.5rem;
+    height: 2.5rem;
+    background-size: cover;
+    float: left;
+    
+}
+
+#web-link {
+    color: gold;
+    float: left;
+    font-size: 11px;
+}
+
+#web-link:hover,
+#web-link:active {
+    color:  rgba(209, 182, 29, 0.589);
+    text-decoration: underline;
+}
+
+.catFont {
+    font-family: 'Kreon', serif;
+    background: rgba(0, 0, 0, 0.836);
+    color:rgba(224, 192, 11, 0.9);
+    border: rgba(224, 192, 11, 0.9) solid 1px;
+    margin: auto;
+    margin-top: 0.5%;
+    width: 100%;
+    /* min-width: 531px; */
+    /* max-width: 675px; */
+    font-weight: normal;
+}
+
+@media (min-width: 40rem) {
+
+    .container {
+        padding-top: 1.25rem;
+    }
+
+    .container1 {
+        float: left;
+        width: 49.5%;
+        
+    }
+    
+    .container2 {
+        float: right;
+        width: 49.5%;
+       
+    }
+
+    
+
+    .name {
+        width: 30%;
+        min-width: 14.375rem;
+        margin: 2.5rem 0 0 1.25rem;
+        padding: 0.625rem;
+        float: right;
+    }
+    
+    .stats {
+        width: 100%;
+        margin: 0.3% 0.5% 0.5% 0.5%;
+        /* min-width: 15rem;
+        max-width: 18.7rem; */
+    }
+
+    .titleFont {
+        margin: auto;
+        margin-top: 0.5%;
+        width: 100%;
+        /* max-width: 39rem;
+        min-width: 33.3rem; */
+    }
+
+    .big {
+        width: 100%;
+        /* max-width: 45rem; */
+    }
+
+    .case {
+       display: inline-block;
+       /* width: 25.8rem; */
+       /* max-width: 25.8rem; */
+       margin: 0.3rem 2rem;
+       padding: 1rem;
+       vertical-align: middle;
+    }
+
+    .trophy {
+        display: inline-block;
+        margin: 0.5rem 0.625rem;
+        vertical-align: middle;
+    }
+
+    .trophy .stats {
+        margin-top: 2rem;
+        margin-bottom: 2rem;
+    }
+
+    .seasonTitle {
+        display: inline-block;
+        margin: 0.3% 0.5% 0.5% 0.5%;
+        max-width: 18.7rem;
+    }
+
+  
+    
+    
+    .critic-container {
+        display: -ms-grid;
+        display: grid;
+    }
+
+   
+
+    .big {
+        font-size: 1.4rem;
+        /* min-width: 34.375rem;
+        max-width: 45rem; */
+        width: 100%;
+    }
+
+    .links {
+        width: 100%;
+        /* max-width: 45rem;
+        min-width: 34.875rem; */
+        font-size: 0.8rem;
+    }
+
+    .review {
+        max-width: none;
+        width: 100%;
+    }
+
+    .critic-profile {
+        /* max-width: 22rem; */
+        margin: 0.5rem 0.2rem;
+        vertical-align: top;
+    }
+
+
+    .goat-stats {
+        font-size: 17px;
+    }
+
+    .cats {
+        margin: 0 0.5%;
+    }
+
+    .catFont {
+        width: 100%;
+        max-width: 39rem;
+        min-width: 33.3rem;
+    }
+
+    .catshead {
+        font-size: 1.2rem;
+    }
+
+
+
+}
+
+@media (min-width: 60rem) {
+
+    .big {
+        font-size: 1.8rem;
+    }
+
+    .player-list {
+        font-size: 20px;
+    }
+
+    .cats {
+        margin: 0 2%;
+    }
+
+}
